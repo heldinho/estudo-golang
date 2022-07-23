@@ -7,11 +7,10 @@ import (
 func main() {
 
 	var name string
-	var alphabet_count int
+	var num int
 
 	fmt.Scanf("%s", &name)
-	fmt.Scanf("%d", &alphabet_count)
+	fmt.Scanf("%d", &num)
 
-	fmt.Printf("The word %s containing %d number of alphabets.", name, alphabet_count)
-
+	fmt.Printf("The word %s containing %d number of alphabets.", name, num)
 }
